@@ -1,7 +1,7 @@
 package com.may07;
 
-public class E7_18 { //¹®Á¦¿Í ´Ù¸£°Ô staticÀ» ³Ê¹« ¸¹ÀÌ ³Ö¾úÀ½.
-	public static void action(Robot r) { //actionÀº ³»°¡ ¸¸µå´Â °ÍÀÌ±â ¶§¹®¿¡ staticÀº »ó°ü¾øÀ» °Í °°´Ù.
+public class E7_18 { //ë¬¸ì œì™€ ë‹¤ë¥´ê²Œ staticìœ¼ë¡œ ë°”ë¡œ 
+	public static void action(Robot r) { //actionì€ ë‚´ê°€ ë§Œë“œëŠ” ê²ƒì´ê¸° ë•Œë¬¸ì— staticì€ ìƒê´€ì—†ì„ ê²ƒ ê°™ë‹¤.
 		if(r instanceof DanceRobot) {
 			DanceRobot.dance();
 		}
@@ -26,18 +26,18 @@ class Robot {}
 
 class DanceRobot extends Robot{
 	static void dance() {
-		System.out.println("ÃãÃá´Ù");
+		System.out.println("ì¶¤ì¶˜ë‹¤");
 	}
 }
 
 class SingRobot extends Robot{
 	static void sing() {
-		System.out.println("³ë·¡ÇÑ´Ù");
+		System.out.println("ë…¸ë˜í•œë‹¤");
 	}
 }
 
 class DrawRobot extends Robot{
 	static void draw() {
-		System.out.println("±×¸²±×¸°´Ù");
+		System.out.println("ê·¸ë¦¼ê·¸ë¦°ë‹¤");
 	}
 }
