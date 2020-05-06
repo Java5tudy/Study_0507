@@ -17,10 +17,40 @@ package studyJava.ObjectEx;
  *  
  * @author kate
  */
+class Shape{
+	
+}
+
+class Circle extends Shape{
+	double r;
+	
+	public Circle() {
+		this.r = r;
+	}
+}
+class Rectangle extends Shape{
+	static double width;
+	static double height;
+	
+	public Rectangle() {
+		this.width = width;
+		this.height = height;
+	}
+	
+	boolean isSquare() {
+		if (width==height) {
+			return true;
+		}else
+			return false;
+	}
+}
 public class Exercise7_22 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		Rectangle nemo = new Rectangle();
+		nemo.height = 7;
+		nemo.width = 8;
+		System.out.println(nemo.isSquare());
 
 	}
 
