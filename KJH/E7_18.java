@@ -1,7 +1,7 @@
 package com.may07;
 
 public class E7_18 { //문제와 다르게 static으로 바로 
-	public static void action(Robot r) { //action은 내가 만드는 것이기 때문에 static은 상관없을 것 같다.
+	public static void action(Robot r) { 
 		if(r instanceof DanceRobot) {
 			DanceRobot.dance();
 		}
