@@ -29,17 +29,17 @@ class Robot {
 }
 class DanceRobot extends Robot {
 	void dance() {
-		System.out.println("ÃãÀ» Ãä´Ï´Ù.");
+		System.out.println("ì¶¤ì„ ì¶¥ë‹ˆë‹¤.");
 	}
 }
 class SingRobot extends Robot {
 	void sing() {
-		System.out.println("³ë·¡¸¦ÇÕ´Ï´Ù.");
+		System.out.println("ë…¸ë˜ë¥¼í•©ë‹ˆë‹¤.");
 	}
 }
 class DrawRobot extends Robot {
 	void draw() {
-		System.out.println("±×¸³À» ±×¸³´Ï´Ù.");
+		System.out.println("ê·¸ë¦½ì„ ê·¸ë¦½ë‹ˆë‹¤.");
 	}
 }
 
