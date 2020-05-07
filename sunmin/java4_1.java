@@ -36,58 +36,58 @@ public class java4_1 {
 	}
 	
 	public static void main(String[] args) {
-		System.out.println("1. intÇü º¯¼ö x¸¦ ÀÔ·ÂÇÏ¼¼¿ä.");
+		System.out.println("1. intí˜• ë³€ìˆ˜ xë¥¼ ìž…ë ¥í•˜ì„¸ìš”.");
 		int x = OperatorInt();
 		if(10<x && x<20) {
-			System.out.println(x+"´Â 10º¸´Ù Å©°í 20º¸´Ù ÀÛ´Ù");
+			System.out.println(x+"ëŠ” 10ë³´ë‹¤ í¬ê³  20ë³´ë‹¤ ìž‘ë‹¤");
 		}
 		else {
-			System.out.println(x+"´Â 10º¸´Ù Å©°í 20º¸´Ù ÀÛÁö ¾Ê´Ù.");
+			System.out.println(x+"ëŠ” 10ë³´ë‹¤ í¬ê³  20ë³´ë‹¤ ìž‘ì§€ ì•Šë‹¤.");
 		}
 
-		System.out.println("3. charÇü º¯¼ö ch¸¦ ÀÔ·ÂÇÏ¼¼¿ä.");
+		System.out.println("3. charí˜• ë³€ìˆ˜ chë¥¼ ìž…ë ¥í•˜ì„¸ìš”.");
 		char chx = OperatorChar();
 		if(chx =='x' || chx =='X') {
-			System.out.println(chx+"´Â x ¶Ç´Â XÀÔ´Ï´Ù.");
+			System.out.println(chx+"ëŠ” x ë˜ëŠ” Xìž…ë‹ˆë‹¤.");
 		}
 		else {
-			System.out.println(chx+"´Â x ¶Ç´Â X°¡ ¾Æ´Õ´Ï´Ù.");
+			System.out.println(chx+"ëŠ” x ë˜ëŠ” Xê°€ ì•„ë‹™ë‹ˆë‹¤.");
 		}
 		
-		System.out.println("4. 0~9±îÁöÀÇ ¼ö Áß ÇÏ³ª¸¦ ÀÔ·ÂÇÏ¼¼¿ä.");
+		System.out.println("4. 0~9ê¹Œì§€ì˜ ìˆ˜ ì¤‘ í•˜ë‚˜ë¥¼ ìž…ë ¥í•˜ì„¸ìš”.");
 		char chnum = OperatorChar();
 		if('0'<=chnum && chnum<='9') {
-			System.out.println(chnum+"Àº 0ºÎÅÍ 9±îÁöÀÇ ¼ýÀÚ Áß ÇÏ³ªÀÔ´Ï´Ù.");
+			System.out.println(chnum+"ì€ 0ë¶€í„° 9ê¹Œì§€ì˜ ìˆ«ìž ì¤‘ í•˜ë‚˜ìž…ë‹ˆë‹¤.");
 		}
 		else {
-			System.out.println(chnum+"Àº 0ºÎÅÍ 9±îÁöÀÇ ¼ýÀÚ°¡ ¾Æ´Õ´Ï´Ù.");
+			System.out.println(chnum+"ì€ 0ë¶€í„° 9ê¹Œì§€ì˜ ìˆ«ìžê°€ ì•„ë‹™ë‹ˆë‹¤.");
 		}
 		
-		System.out.println("5. charÇü ¿µ¹®ÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä.");
+		System.out.println("5. charí˜• ì˜ë¬¸ìžë¥¼ ìž…ë ¥í•˜ì„¸ìš”.");
 		char cap = OperatorChar(); 
 		if(('A'<=cap && cap<='Z')||('a'<=cap && cap<='z')) {
-			System.out.println(cap+"Àº ¾ËÆÄºª ´ë¹®ÀÚ ¶Ç´Â ¼Ò¹®ÀÚ ÀÔ´Ï´Ù.");
+			System.out.println(cap+"ì€ ì•ŒíŒŒë²³ ëŒ€ë¬¸ìž ë˜ëŠ” ì†Œë¬¸ìž ìž…ë‹ˆë‹¤.");
 		}
 		else {
-			System.out.println(cap+"Àº ¾ËÆÄºªÀÌ ¾Æ´Õ´Ï´Ù.");
+			System.out.println(cap+"ì€ ì•ŒíŒŒë²³ì´ ì•„ë‹™ë‹ˆë‹¤.");
 		}
 		
-		System.out.println("6. intÇü º¯¼ö yearÀ» ÀÔ·ÂÇØÁÖ¼¼¿ä.");
+		System.out.println("6. intí˜• ë³€ìˆ˜ yearì„ ìž…ë ¥í•´ì£¼ì„¸ìš”.");
 		int year = OperatorYear();
 		if(((year/400==0)||(year/4==0))&&(year/100!=0)) {
-			System.out.println(year+"´Â 400 ¶Ç´Â 100 À¸·Î ³ª´©¾î ¶³¾îÁö°í 100À¸·Î ³ª´² ¶³¾îÁöÁö ¾Ê½À´Ï´Ù.");
+			System.out.println(year+"ëŠ” 400 ë˜ëŠ” 100 ìœ¼ë¡œ ë‚˜ëˆ„ì–´ ë–¨ì–´ì§€ê³  100ìœ¼ë¡œ ë‚˜ëˆ  ë–¨ì–´ì§€ì§€ ì•ŠìŠµë‹ˆë‹¤.");
 		}
 		else {
-			System.out.println(year+"´Â 400 ¶Ç´Â 100À¸·Î ³ª´©¾î ¶³¾îÁöÁö ¾Ê½À´Ï´Ù.");
+			System.out.println(year+"ëŠ” 400 ë˜ëŠ” 100ìœ¼ë¡œ ë‚˜ëˆ„ì–´ ë–¨ì–´ì§€ì§€ ì•ŠìŠµë‹ˆë‹¤.");
 		}
 		
-		System.out.println("8. yes¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä.");
+		System.out.println("8. yesë¥¼ ìž…ë ¥í•´ì£¼ì„¸ìš”.");
 		String str = OperatorStr();
 		if(str.equalsIgnoreCase("yes")) {
-			System.out.println(str+"Àº yesÀÔ´Ï´Ù.");
+			System.out.println(str+"ì€ yesìž…ë‹ˆë‹¤.");
 		}
 		else {
-			System.out.println(str+"Àº yes°¡ ¾Æ´Õ´Ï´Ù.");
+			System.out.println(str+"ì€ yesê°€ ì•„ë‹™ë‹ˆë‹¤.");
 		}
 	}
 }
